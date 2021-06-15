@@ -22,3 +22,7 @@
     display: grid;
     align-items: center;
 }
+
+h1 {
+    font-family: 'Hammersmith One', sans-serif;
+}
