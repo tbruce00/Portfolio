@@ -1,3 +1,8 @@
+:root {
+    --light: #fff;
+    --dark: violet;
+    }
+
 .header {
     padding-top: 35px;
     padding-bottom: 35px;
@@ -10,6 +15,16 @@
     display: inline-block;
     color: #fff;
     position: relative;
+}
+
+body {
+    margin: 0 auto;
+    color: var(--light);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    align-items: center;
 }
 
 .hero {
@@ -25,4 +40,67 @@
 
 h1 {
     font-family: 'Hammersmith One', sans-serif;
+    font-size: 55px;
+    color: blanchedalmond;
 }
+
+h2 {
+    font-family:'Mate SC', serif;
+    font-size: 40px;
+    color: blanchedalmond;
+}
+
+.social-media li {
+    display: inline-block;
+    border: 0;
+    margin-top: 1.6rem;
+    margin-left: 2.4rem;
+    height: 3.2rem;
+  }
+
+  .social-media li a {
+    width: 3.2rem;
+    height: 3.2rem;
+    display: inline-block;
+    text-indent: -9999px;
+    cursor: pointer;
+    padding: 0px;
+  }
+  .social-media li a:hover {
+    opacity: 0.5;
+  }
+
+
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+    position: relative;
+    align-items: center;
+}
+
+.project-header {
+    height: 5px;
+    background: var(--dark);
+    border-bottom: #ffff solid 3px;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.project-header h3 {
+    position: absolute;
+    top: -.9rem;
+    left: 50%;
+    margin-left: 155px;
+    width: 320px;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    color: var(--dark);
+    background: var(--light);
+    font-size: 25px;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+}
+
