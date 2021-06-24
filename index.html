@@ -14,49 +14,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header header-fixed">
-        <div class="container">
-            <div class="row h-100">
-                <nav class="col-9 col-lg-6">
-                    <div class="header-logo">
-                        <i class="bi bi-asterisk"></i>
-                    </div>
-                </nav>
-                <nav class="col-3 col-lg-6">
-                    <div class="nav justify-content-center">
-                        <ul class="mb-2 mb-lg-0">
-                          <li class="nav-item">
-                              <a class="nav-link" aria-current="page" href="#About">about</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#Projects">projects</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#Contact">contact</a>
-                          </li>
-                        </ul>
-                    </div>
-                </nav>
-                <nav class="social-media nav justify-content-end">
-                    <ul>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="navbar h-100">
+                <div class="nav-item">
+                    <span><i class="bi bi-asterisk"></i></span> 
+                </div>
+                <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/trevor-bruce-31569120b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                      <a class="nav-link active" aria-current="page" href="#About">about</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.facebook.com/trevor.bruce.1428" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a class="nav-link" href="#Projects">projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-item" href="https://www.instagram.com/tbruce00/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a class="nav-link" href="#Contact">contact</a>
                     </li>
-                    </ul>    
-                </nav>
+                </ul>
+                <!-- <div class="social-media"> -->
+                    <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/trevor-bruce-31569120b/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/trevor.bruce.1428" target="_blank"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/tbruce00/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    </ul>  
+                </div>     
             </div>
         </div>
     </header>
     <main class="hero">
         <div class="container">
             <div class="columns is-centered">
-                <div class="column" id="about">
+                <div class="column" id="About">
                     <img class="avatar" src="file:///Users/trevorbruce/Downloads/avatar-svgrepo-com%20(1).svg">
                     <h1>Life Long Learner. Coder In Progress</h1>
                     <h2>Full Stack Web Developer Student With A Creative Background</h2>
@@ -64,10 +58,10 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="project-header">
+                    <div class="project-header" id="Projects">
                         <h3>Projects</h3>
                     </div>
-                    <ul class="card" style="width: 18rem;">
+                    <!-- <ul class="card" style="width: 18rem;">
                         <li>
                         <a href="https://github.com/ttdunlap33/movie-project" target="_blank" alt="Movie Grab">
                             <img src="./assets/images/screenshot1.png" class="card-img-top" alt="Movie Grab">
@@ -104,8 +98,47 @@
                             </div>    
                             </a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
+            
+            <div class="card-deck">
+                <a href="https://github.com/ttdunlap33/movie-project" target="_blank" alt="Movie Grab">
+                <div class="card">
+                    <img src="./assets/images/screenshot1.png" class="card-img-top" alt="Movie Grab">
+                  <div class="card-body">
+                    <h5 class="card-title">Movie Grab</h5>
+                    <p class="card-text">Find Movie Recommendations Based Off Of Similar Movies</p>
+                  </div>
+                </div>
+                </a>
+                <a href="https://stormy-earth-73391.herokuapp.com/" target="_blank" alt="Note Taker">
+                <div class="card">
+                    <img src="./assets/images/notetaker.png" class="card-img-top" alt="Note Taker">
+                  <div class="card-body">
+                    <h5 class="card-title">Note Taker</h5>
+                    <p class="card-text">Interactive Application To Store User's Notes</p>
+                  </div>
+                </div>
+                </a>
+                <a href="https://boiling-garden-97737.herokuapp.com/" target="_blank" alt="Stick It To Me">
+                <div class="card">
+                    <img src="./assets/images/sticky.png" class="card-img-top" alt="Stick It To Me">
+                  <div class="card-body">
+                    <h5 class="card-title">Stick It To Me</h5>
+                    <p class="card-text">Create and Store Events That Other Users' Can RSVP To</p>
+                  </div>
+                </div>
+                </a>
+                <a href="https://tbruce00.github.io/Week06_WeatherDashboard/" target="_blank" alt="Weather Dashboard">
+                <div class="card">
+                    <img src="./assets/images/weather.png" class="card-img-top" alt="Weater Dashboard">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">Search For Cities 5 Day Forecast and Store Recent Search Results For User</p>
+                    </div>   
+                </div>
+                </a>
+              </div>
             </div>
             <div class="row">
                 <div class="col-12">
