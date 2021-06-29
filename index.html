@@ -16,7 +16,7 @@
 <body>
     <header class="header">
         <div class="container-fluid">
-            <div class="navbar h-100">
+            <div class="navbar h-100 sticky-top">
                 <div class="nav-item">
                     <span><i class="bi bi-asterisk"></i></span> 
                 </div>
@@ -133,20 +133,54 @@
                 <div class="card">
                     <img src="./assets/images/weather.png" class="card-img-top" alt="Weater Dashboard">
                     <div class="card-body">
-                        <h5 class="card-title">Weather Dashboard</h5>
-                        <p class="card-text">Search For Cities 5 Day Forecast and Store Recent Search Results For User</p>
+                        <h5 class="card-title noUnder">Weather Dashboard</h5>
+                        <p class="card-text noUnder">Search For Cities 5 Day Forecast and Store Recent Search Results For User</p>
                     </div>   
-                </div>
+                </div> 
                 </a>
               </div>
             </div>
+            <br>
+            <br>
             <div class="row">
-                <div class="col-12">
-
-                </div>
+            <div class="project-header" id="Contact">
+                <h3>Contact</h3>
             </div>
-
-
+            <ul class="social-media">
+                <li>
+                    <a href="https://www.linkedin.com/in/trevor-bruce-31569120b/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i>LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/trevor.bruce.1428" target="_blank" class="facebook"><i class="bi bi-facebook"></i>Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/tbruce00/" target="_blank" class="instagram"><i class="bi bi-instagram"></i>Instagram</a>
+                </li>
+            </ul>
+            </div>
+            <section>
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Email Me</h2>
+                    </div>
+                    <br>
+                    <form>
+                        <div class="mb-3">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputName" aria-describedby="name">    
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label">E-Mail</label>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputMsg" class="form-label">Message</label>
+                            <textarea class="form-control" id="inputMsg" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-secondary">Send E-Mail</button>
+                    </form>
+                </div>
+            </section>
         </main>
 </body>
 </html>

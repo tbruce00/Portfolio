@@ -11,6 +11,7 @@ body {
     display: grid;
     grid-template-columns: repeat(autofit, minmax(300px, 1fr));
     align-items: center;
+    text-decoration: none !important;
     }    
 
 .header {
@@ -135,7 +136,7 @@ h2 {
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
     margin-left: 1px;
     margin-right: 1px;
-    text-decoration: none;
+    text-decoration: none !important;
     padding-left: 8px;
     margin-bottom: 15px;
     }
@@ -151,14 +152,22 @@ h2 {
     text-decoration: none;
     }
 
-.card-title {
+.card-title { 
     text-align: center;
     text-decoration: none;
     font-family:'Hammersmith One', sans-serif; 
-}   
+}
 
-.card a {
+.card-text {
+    text-align: center;
     text-decoration: none;
-    opacity: .5;
-    color: #fff;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.card-deck .card-title .card-text {
+    text-decoration: none;
+}
+
+.noUnder {
+    text-decoration: none;
 }
