@@ -8,7 +8,7 @@ It is still very much a work in progress but I am proud of the advancements in l
 
 ## Link
 
-Visit my profile <a href=" https://tbruce00.github.io/Portfolio/" target="_blank">here</a>
+Visit my profile <a href="https://tbruce00.github.io/Portfolio/" target="_blank">here</a>
 
 ## Contact
 
