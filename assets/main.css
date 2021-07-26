@@ -171,3 +171,14 @@ h2 {
 .noUnder {
     text-decoration: none;
 }
+
+footer {
+    background: rgba(219, 165, 165, 0.5);
+    color: whitesmoke;
+    position: fixed;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+    font-weight: 400;
+    height: 40px;
+}
