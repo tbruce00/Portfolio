@@ -68,9 +68,21 @@ h1 {
 
 h2 {
     font-family:'Mate SC', serif;
-    font-size: 40px;
+    font-size: 50px;
     color: blanchedalmond;
     text-align: center;
+    font-weight: 300;
+}
+
+h1 h2 p {
+    margin-bottom: 1rem;
+}
+
+p {
+    color:blanchedalmond;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Mate SC', serif;
 }
 
 .social-media li {
@@ -128,6 +140,14 @@ h2 {
     font-family: 'Permanent Marker', cursive;
 }
 
+.card-deck {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
 .card {
     border-radius: 0 !important;
     border: 0 none;
@@ -141,9 +161,10 @@ h2 {
     margin-bottom: 15px;
     }
 
-.card a {
+.card {
     text-decoration: none;
     color: violet;
+    font-size: 35px;
     }    
     
 .card-img-top {
@@ -156,12 +177,15 @@ h2 {
     text-align: center;
     text-decoration: none;
     font-family:'Hammersmith One', sans-serif; 
+    color:rgb(149, 102, 190);
 }
 
 .card-text {
     text-align: center;
     text-decoration: none;
     font-family: 'Hammersmith One', sans-serif;
+    color: black;
+    font-size: 20px;
 }
 
 .card-deck .card-title .card-text {
@@ -172,7 +196,7 @@ h2 {
     text-decoration: none;
 }
 
-footer {
+.footer {
     background: rgba(219, 165, 165, 0.5);
     color: whitesmoke;
     position: fixed;
@@ -181,4 +205,9 @@ footer {
     width: 100%;
     font-weight: 400;
     height: 40px;
+}
+
+label {
+    color:whitesmoke;
+    font-size: 25px;
 }
